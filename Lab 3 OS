@@ -1,0 +1,39 @@
+
+
+i=0
+j=0
+#numBlock[20]
+#startBlock[20]
+#c[20][20]
+
+numFile = input("Enter no. of files: ")
+
+for i in numFile :
+
+    numBlock = input("Enter no. of blocks occupied by file: ")
+
+
+    startBlock = input("Enter the starting block of file: ")
+
+    a = t[20]
+    t[i] == startBlock[i]
+
+    for j in numBlock[i]:
+        c[i][j] = startBlock[i] + 1
+
+
+    print("Filename\tStart block\tlength\n")
+
+for i in numFile :
+    print(startBlock + "\t" + startBlock + "\t" + startBlock + "\n", i+1, t[i], b[i])
+
+filename = input("Enter file name: ")
+
+print("File name is: " + filename)
+
+print("length is: " + startBlock, b[x-1])
+
+print("blocks occupied:")
+
+for i in b[x-1]:
+    print(""+ c[x-1][i])
